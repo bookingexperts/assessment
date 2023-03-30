@@ -5,7 +5,7 @@
 # Table name: parks
 #
 #  id              :bigint           not null, primary key
-#  name            :string
+#  name            :string           not null
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  organization_id :bigint           not null, indexed

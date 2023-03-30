@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![](https://mermaid.ink/img/pako:eNqNk01vwjAMhv9K5ONUKlpWluawwz6O06btNlVCHglQ0SYoSacB4r8vyUrFR4c41bae136dpFuYKi6AwbRCY55KnGusC0nIq56jLDdoSyVJAUkBZDC491Ec37jkDfWSsAWaSY1yfVHh8cfGWFULfSwJTU7RB6WWpZxfQb4LafGrElehRujvP29HdGesZ8deJ_tiD__vkM7o9SIvC3dyfK5bXydEYi18tDsEw-KXgL31E4YQUWNZneGHzlqJsajthKPdCyXvshNtu_HZLORcC2OCAiJwR--Gc_cCA1mAXQiHAnMhFzNsKltAIT2KjVUfazkFZnUjImhWfnT7ZoHNsDJd9ZmXVumuuEIJbAs_wCi9jfNhmo-ybJzd5aM8gjWwNKUxHSY5HSd5QmlKR7sINkq5tsM4C_rPkLX9RGj_0v46_rP7BcHhCio?type=png)](https://mermaid.live/edit#pako:eNqNk01vwjAMhv9K5ONUKlpWluawwz6O06btNlVCHglQ0SYoSacB4r8vyUrFR4c41bae136dpFuYKi6AwbRCY55KnGusC0nIq56jLDdoSyVJAUkBZDC491Ec37jkDfWSsAWaSY1yfVHh8cfGWFULfSwJTU7RB6WWpZxfQb4LafGrElehRujvP29HdGesZ8deJ_tiD__vkM7o9SIvC3dyfK5bXydEYi18tDsEw-KXgL31E4YQUWNZneGHzlqJsajthKPdCyXvshNtu_HZLORcC2OCAiJwR--Gc_cCA1mAXQiHAnMhFzNsKltAIT2KjVUfazkFZnUjImhWfnT7ZoHNsDJd9ZmXVumuuEIJbAs_wCi9jfNhmo-ybJzd5aM8gjWwNKUxHSY5HSd5QmlKR7sINkq5tsM4C_rPkLX9RGj_0v46_rP7BcHhCio)

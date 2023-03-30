@@ -3,6 +3,8 @@
 # Table name: bookings
 #
 #  id          :bigint           not null, primary key
+#  email       :string           not null
+#  name        :string           not null
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  customer_id :bigint           not null, indexed
@@ -21,3 +23,5 @@
 booking:
   park: park
   customer: customer
+  name: John Doe
+  email: john.doe@example.com

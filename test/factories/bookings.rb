@@ -5,6 +5,8 @@
 # Table name: bookings
 #
 #  id          :bigint           not null, primary key
+#  email       :string           not null
+#  name        :string           not null
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  customer_id :bigint           not null, indexed
@@ -24,5 +26,8 @@ FactoryBot.define do
   factory :booking do
     park_id { ActiveRecord::FixtureSet.identify(:park) }
     customer_id { ActiveRecord::FixtureSet.identify(:customer) }
+
+    name { Faker::Name.name }
+    email { Faker::Internet.safe_email }
   end
 end
