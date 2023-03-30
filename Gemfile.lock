@@ -188,6 +188,8 @@ GEM
       parser (>= 3.2.1.0)
     rubocop-capybara (2.17.1)
       rubocop (~> 1.41)
+    rubocop-minitest (0.25.1)
+      rubocop (>= 0.90, < 2.0)
     rubocop-rails (2.18.0)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
@@ -243,11 +245,13 @@ DEPENDENCIES
   debug
   jbuilder
   jsbundling-rails
+  minitest
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   redis (~> 4.0)
   rubocop-capybara
+  rubocop-minitest
   rubocop-rails
   selenium-webdriver
   sprockets-rails
