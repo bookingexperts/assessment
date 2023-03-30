@@ -9,7 +9,7 @@ class OrganizationTest < ActiveSupport::TestCase
     it 'requires a name' do
       organization.name = nil
 
-      refute organization.valid?
+      assert_not organization.valid?
       assert organization.errors.key?(:name)
     end
   end

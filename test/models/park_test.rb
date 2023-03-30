@@ -9,7 +9,7 @@ class ParkTest < ActiveSupport::TestCase
     it 'requires a name' do
       park.name = nil
 
-      refute park.valid?
+      assert_not park.valid?
       assert park.errors.key?(:name)
     end
   end

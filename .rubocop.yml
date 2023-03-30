@@ -3,5 +3,11 @@ require:
   - rubocop-rails
   - rubocop-capybara
 
+AllCops:
+  NewCops: enable
+
+Metrics/BlockLength:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false

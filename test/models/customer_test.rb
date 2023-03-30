@@ -9,14 +9,14 @@ class CustomerTest < ActiveSupport::TestCase
     it 'requires a name' do
       customer.name = nil
 
-      refute customer.valid?
+      assert_not customer.valid?
       assert customer.errors.key?(:name)
     end
 
     it 'requires an email address' do
       customer.email = nil
 
-      refute customer.valid?
+      assert_not customer.valid?
       assert customer.errors.key?(:email)
     end
   end

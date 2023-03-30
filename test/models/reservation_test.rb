@@ -9,21 +9,21 @@ class ReservationTest < ActiveSupport::TestCase
     it 'requires a start date' do
       reservation.start_date = nil
 
-      refute reservation.valid?
+      assert_not reservation.valid?
       assert reservation.errors.key?(:start_date)
     end
 
     it 'requires an end date' do
       reservation.end_date = nil
 
-      refute reservation.valid?
+      assert_not reservation.valid?
       assert reservation.errors.key?(:end_date)
     end
 
     it 'requires end date to be after start date' do
       reservation.end_date = reservation.start_date
 
-      refute reservation.valid?
+      assert_not reservation.valid?
       assert reservation.errors.key?(:end_date)
     end
   end
