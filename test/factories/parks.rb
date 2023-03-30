@@ -1,6 +1,7 @@
 FactoryBot.define do
   factory :park do
     organization { nil }
-    name { "MyString" }
+
+    name { Faker::Company.name }
   end
 end

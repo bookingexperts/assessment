@@ -1,7 +1,8 @@
 FactoryBot.define do
   factory :customer do
     organization { nil }
-    name { "MyString" }
-    email { "MyString" }
+
+    name { Faker::Name.name }
+    email { Faker::Internet.safe_email }
   end
 end
