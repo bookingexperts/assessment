@@ -73,6 +73,7 @@ group :development do
 end
 
 group :test do
+  gem 'factory_bot_rails'
   gem 'minitest'
 
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
