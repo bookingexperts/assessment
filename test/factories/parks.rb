@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :park do
-    organization { nil }
+    organization_id { ActiveRecord::FixtureSet.identify(:organization) }
 
     name { Faker::Company.name }
   end

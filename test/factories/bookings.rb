@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :booking do
-    park { nil }
-    customer { nil }
+    park_id { ActiveRecord::FixtureSet.identify(:park) }
+    customer_id { ActiveRecord::FixtureSet.identify(:customer) }
   end
 end

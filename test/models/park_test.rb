@@ -3,7 +3,14 @@
 require 'test_helper'
 
 class ParkTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  let(:park) { parks(:park) }
+
+  describe 'validations' do
+    it 'requires a name' do
+      park.name = nil
+
+      refute park.valid?
+      assert park.errors.key?(:name)
+    end
+  end
 end
